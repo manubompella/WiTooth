@@ -1,0 +1,5 @@
+http://www.sunrom.com/p/smd-tactile-switch-45x45x38mm   --- TACTILE SWITCH
+https://www.sparkfun.com/products/13907
+https://github.com/watterott/ESP-WROOM-Breakout
+http://wiki.seeed.cc/ESP32_Breakout_Kit/
+https://github.com/adamjvr/ESP32-kiCAD-Footprints/

@@ -1,0 +1,22 @@
+ERC report (02/05/17 19:52:59, Encoding UTF8 )
+
+***** Sheet /
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (125.73 mm,46.35 mm): Pin 1 (Power input) of component #PWR017 is not driven (Net 5).
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (87.63 mm,138.43 mm): Pin 11 (Output) of component U2 is unconnected.
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (90.17 mm,138.43 mm): Pin 12 (Output) of component U2 is unconnected.
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (230.50 mm,27.30 mm): Pin 3 (Power input) of component U3 is not driven (Net 53).
+ErrType(5): Conflict problem between pins. Severity: error
+    @ (43.18 mm,28.57 mm): Pin 2 (Power output) of component U1 is connected to 
+    @ (43.18 mm,26.04 mm): pin 4 (Power output) of component U1 (net 60).
+ErrType(3): Pin connected to some others pins but no pin to drive it
+    @ (33.66 mm,123.19 mm): Pin 1 (Power input) of component P1 is not driven (Net 61).
+ErrType(2): Pin not connected (and no connect symbol found on this pin)
+    @ (91.44 mm,97.79 mm): Pin 23 (Input) of component U2 is unconnected.
+ErrType(8): Global label not connected to any other global label
+    @ (91.44 mm,94.61 mm): Global label CTS is not connected to any other global label.
+
+ ** ERC messages: 8  Errors 1  Warnings 7
