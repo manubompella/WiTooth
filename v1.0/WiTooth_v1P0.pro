@@ -1,4 +1,4 @@
-update=02/05/17 19:48:37
+update=02/08/17 15:11:36
 version=1
 last_client=kicad
 [pcbnew]
@@ -35,7 +35,7 @@ SpiceUseNetNumbers=0
 LabSize=60
 [eeschema]
 version=1
-LibDir=../../../kicad-library/library
+LibDir=../../kicad-library/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -72,5 +72,6 @@ LibName32=usb_a_4_pins
 LibName33=cp2102
 LibName34=JTAG
 LibName35=crystal-new
+LibName36=usb_a_male_pcb
 [general]
 version=1
