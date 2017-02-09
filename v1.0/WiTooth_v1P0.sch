@@ -687,41 +687,41 @@ Programming Section
 $Comp
 L CONN_01X04 P3
 U 1 1 5898386C
-P 2925 6550
-F 0 "P3" H 2925 6800 50  0000 C CNN
-F 1 "CONN_01X04" V 3025 6550 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 2925 6550 50  0001 C CNN
-F 3 "" H 2925 6550 50  0000 C CNN
-	1    2925 6550
+P 3550 6550
+F 0 "P3" H 3550 6800 50  0000 C CNN
+F 1 "CONN_01X04" V 3650 6550 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x04_Pitch2.54mm" H 3550 6550 50  0001 C CNN
+F 3 "" H 3550 6550 50  0000 C CNN
+	1    3550 6550
 	-1   0    0    -1  
 $EndComp
 $Comp
 L +3V3 #PWR021
 U 1 1 58983CE6
-P 3350 6400
-F 0 "#PWR021" H 3350 6250 50  0001 C CNN
-F 1 "+3V3" H 3350 6550 50  0001 C CNN
-F 2 "" H 3350 6400 50  0000 C CNN
-F 3 "" H 3350 6400 50  0000 C CNN
-	1    3350 6400
+P 3975 6400
+F 0 "#PWR021" H 3975 6250 50  0001 C CNN
+F 1 "+3V3" H 3975 6550 50  0001 C CNN
+F 2 "" H 3975 6400 50  0000 C CNN
+F 3 "" H 3975 6400 50  0000 C CNN
+	1    3975 6400
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR022
 U 1 1 58983F49
-P 3375 6700
-F 0 "#PWR022" H 3375 6450 50  0001 C CNN
-F 1 "GND" H 3375 6550 50  0000 C CNN
-F 2 "" H 3375 6700 50  0000 C CNN
-F 3 "" H 3375 6700 50  0000 C CNN
-	1    3375 6700
+P 4000 6700
+F 0 "#PWR022" H 4000 6450 50  0001 C CNN
+F 1 "GND" H 4000 6550 50  0000 C CNN
+F 2 "" H 4000 6700 50  0000 C CNN
+F 3 "" H 4000 6700 50  0000 C CNN
+	1    4000 6700
 	1    0    0    -1  
 $EndComp
-Text GLabel 3350 6500 2    28   Input ~ 0
+Text GLabel 3975 6500 2    28   Input ~ 0
 TXD0
-Text GLabel 3350 6600 2    28   Input ~ 0
+Text GLabel 3975 6600 2    28   Input ~ 0
 RXD0
-Text Notes 2800 7050 0    39   ~ 0
+Text Notes 3425 7050 0    39   ~ 0
 Programming Connector\nfor WiTooth use only
 $Comp
 L CP2102 U2
@@ -891,31 +891,31 @@ Text Label 3300 3150 1    60   ~ 0
 RXD0
 Text Label 3400 3450 1    60   ~ 0
 TXD0
-Text GLabel 700  5025 1    39   Input ~ 0
+Text GLabel 825  6250 1    39   Input ~ 0
 VDD
 $Comp
 L C C2
 U 1 1 5899E045
-P 700 5300
-F 0 "C2" H 725 5400 50  0000 L CNN
-F 1 "0.1uF" H 725 5200 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 738 5150 50  0001 C CNN
-F 3 "" H 700 5300 50  0000 C CNN
-	1    700  5300
+P 825 6525
+F 0 "C2" H 850 6625 50  0000 L CNN
+F 1 "0.1uF" H 850 6425 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 863 6375 50  0001 C CNN
+F 3 "" H 825 6525 50  0000 C CNN
+	1    825  6525
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR027
 U 1 1 5899E0E6
-P 700 5550
-F 0 "#PWR027" H 700 5300 50  0001 C CNN
-F 1 "GND" H 700 5400 50  0000 C CNN
-F 2 "" H 700 5550 50  0000 C CNN
-F 3 "" H 700 5550 50  0000 C CNN
-	1    700  5550
+P 825 6775
+F 0 "#PWR027" H 825 6525 50  0001 C CNN
+F 1 "GND" H 825 6625 50  0000 C CNN
+F 2 "" H 825 6775 50  0000 C CNN
+F 3 "" H 825 6775 50  0000 C CNN
+	1    825  6775
 	1    0    0    -1  
 $EndComp
-Text Notes 2725 6100 0    60   ~ 0
+Text Notes 3350 6100 0    60   ~ 0
 External Programming
 Text Notes 1000 2700 0    60   ~ 0
 Auto Programming
@@ -1037,47 +1037,47 @@ $EndComp
 $Comp
 L JTAG P2
 U 1 1 589A9CE9
-P 1500 6450
-F 0 "P2" H 1450 6350 60  0000 C CNN
-F 1 "JTAG" H 1250 6750 60  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm_SMD" H 1500 6450 60  0001 C CNN
-F 3 "" H 1500 6450 60  0001 C CNN
-	1    1500 6450
+P 2150 6500
+F 0 "P2" H 2100 6400 60  0000 C CNN
+F 1 "JTAG" H 1900 6800 60  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch1.27mm_SMD" H 2150 6500 60  0001 C CNN
+F 3 "" H 2150 6500 60  0001 C CNN
+	1    2150 6500
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3V3 #PWR029
 U 1 1 589AAAC8
-P 625 6300
-F 0 "#PWR029" H 625 6150 50  0001 C CNN
-F 1 "+3V3" H 625 6440 50  0001 C CNN
-F 2 "" H 625 6300 50  0000 C CNN
-F 3 "" H 625 6300 50  0000 C CNN
-	1    625  6300
+P 1275 6350
+F 0 "#PWR029" H 1275 6200 50  0001 C CNN
+F 1 "+3V3" H 1275 6490 50  0001 C CNN
+F 2 "" H 1275 6350 50  0000 C CNN
+F 3 "" H 1275 6350 50  0000 C CNN
+	1    1275 6350
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR030
 U 1 1 589AAF5D
-P 625 6725
-F 0 "#PWR030" H 625 6475 50  0001 C CNN
-F 1 "GND" H 625 6575 50  0000 C CNN
-F 2 "" H 625 6725 50  0000 C CNN
-F 3 "" H 625 6725 50  0000 C CNN
-	1    625  6725
+P 1275 6775
+F 0 "#PWR030" H 1275 6525 50  0001 C CNN
+F 1 "GND" H 1275 6625 50  0000 C CNN
+F 2 "" H 1275 6775 50  0000 C CNN
+F 3 "" H 1275 6775 50  0000 C CNN
+	1    1275 6775
 	1    0    0    -1  
 $EndComp
-Text GLabel 2325 6300 2    39   Input ~ 0
+Text GLabel 2975 6350 2    39   Input ~ 0
 IO14
-Text GLabel 2325 6400 2    39   Input ~ 0
+Text GLabel 2975 6450 2    39   Input ~ 0
 IO13
-Text GLabel 2325 6500 2    39   Input ~ 0
+Text GLabel 2975 6550 2    39   Input ~ 0
 IO15
-Text GLabel 2325 6600 2    39   Input ~ 0
+Text GLabel 2975 6650 2    39   Input ~ 0
 IO12
-Text GLabel 2325 6700 2    39   Input ~ 0
+Text GLabel 2975 6750 2    39   Input ~ 0
 EN
-Text Notes 1100 6025 0    59   ~ 0
+Text Notes 1750 6075 0    59   ~ 0
 JTAG programming
 $Comp
 L Crystal Y1
@@ -1094,12 +1094,6 @@ Text Notes 7300 2975 0    39   ~ 0
 1
 Text Notes 7525 2975 0    39   ~ 0
 2
-Text Notes 7125 4050 0    60   ~ 0
-Crystal footprint\nneeds to be added
-Text Notes 9525 4325 0    60   ~ 0
-ESP32 footprint\nneeds to be added
-Text Notes 625  4250 0    60   ~ 0
-USB footprint\nneeds to be added
 $Comp
 L USB_A_MALE P1
 U 1 1 589B0992
@@ -1396,13 +1390,13 @@ Wire Wire Line
 Wire Wire Line
 	4075 1700 4075 1825
 Wire Wire Line
-	3125 6400 3350 6400
+	3750 6400 3975 6400
 Wire Wire Line
-	3350 6500 3125 6500
+	3975 6500 3750 6500
 Wire Wire Line
-	3125 6600 3350 6600
+	3750 6600 3975 6600
 Wire Wire Line
-	3375 6700 3125 6700
+	4000 6700 3750 6700
 Wire Wire Line
 	700  1125 1100 1125
 Wire Wire Line
@@ -1477,9 +1471,9 @@ Wire Wire Line
 Wire Wire Line
 	3400 3850 3400 3225
 Wire Wire Line
-	700  5450 700  5550
+	825  6675 825  6775
 Wire Wire Line
-	700  5025 700  5150
+	825  6250 825  6375
 Wire Wire Line
 	700  3075 900  3075
 Wire Wire Line
@@ -1530,27 +1524,27 @@ Wire Wire Line
 Wire Wire Line
 	7975 3050 8050 3050
 Wire Wire Line
-	625  6300 800  6300
+	1275 6350 1450 6350
 Wire Wire Line
-	800  6700 625  6700
+	1450 6750 1275 6750
 Wire Wire Line
-	625  6400 625  6725
+	1275 6450 1275 6775
 Wire Wire Line
-	625  6500 800  6500
-Connection ~ 625  6700
+	1275 6550 1450 6550
+Connection ~ 1275 6750
 Wire Wire Line
-	625  6400 800  6400
-Connection ~ 625  6500
+	1275 6450 1450 6450
+Connection ~ 1275 6550
 Wire Wire Line
-	2150 6300 2325 6300
+	2800 6350 2975 6350
 Wire Wire Line
-	2325 6400 2150 6400
+	2975 6450 2800 6450
 Wire Wire Line
-	2150 6500 2325 6500
+	2800 6550 2975 6550
 Wire Wire Line
-	2325 6600 2150 6600
+	2975 6650 2800 6650
 Wire Wire Line
-	2150 6700 2325 6700
+	2800 6750 2975 6750
 Wire Notes Line
 	525  2325 4425 2325
 Wire Notes Line
