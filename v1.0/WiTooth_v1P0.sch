@@ -35,13 +35,53 @@ LIBS:cp2102
 LIBS:JTAG
 LIBS:crystal-new
 LIBS:usb_a_male_pcb
+LIBS:4n35_opto
+LIBS:24MHz
+LIBS:0850bm14e0016
+LIBS:2450BM14G0011
+LIBS:antenna_2.4GHz
+LIBS:cc1310_7x7
+LIBS:cc1310_7x7_new
+LIBS:cc2650
+LIBS:cc2650_7x7
+LIBS:connectors
+LIBS:crystal_24MHz
+LIBS:df08s1_bridge_rec-ic
+LIBS:edge_sma
+LIBS:esp-12e
+LIBS:esp-32_wroom32_Exact
+LIBS:henlv_5v_2a
+LIBS:henlv-ac220s3_3dcs-3w
+LIBS:HM-10
+LIBS:ic-cpu
+LIBS:ic-io
+LIBS:ic-misc
+LIBS:ic-power
+LIBS:inductor
+LIBS:inductor_L
+LIBS:lp5907_ldo_250ma
+LIBS:ltr-303als
+LIBS:Micro_USB_B
+LIBS:passive
+LIBS:PROBE
+LIBS:RFM_module
+LIBS:sfm-110-02-s-d-a-k-tr
+LIBS:si7006
+LIBS:switch_dpdt
+LIBS:switch_spdt
+LIBS:switches
+LIBS:tps782
+LIBS:tps63051
+LIBS:triac_board
+LIBS:vbus053az
+LIBS:xbee
 LIBS:WiTooth_v1P0-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
+Title "WiTooth"
 Date ""
 Rev "v1.0"
 Comp ""
@@ -772,7 +812,7 @@ L R R9
 U 1 1 589936B2
 P 4025 3225
 F 0 "R9" V 4105 3225 50  0000 C CNN
-F 1 "R" V 4025 3225 50  0000 C CNN
+F 1 "1K" V 4025 3225 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3955 3225 50  0001 C CNN
 F 3 "" H 4025 3225 50  0000 C CNN
 	1    4025 3225
@@ -783,7 +823,7 @@ L R R8
 U 1 1 5899374A
 P 3950 2950
 F 0 "R8" V 4030 2950 50  0000 C CNN
-F 1 "R" V 3950 2950 50  0000 C CNN
+F 1 "1K" V 3950 2950 50  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 3880 2950 50  0001 C CNN
 F 3 "" H 3950 2950 50  0000 C CNN
 	1    3950 2950
@@ -828,63 +868,63 @@ F 3 "" H 825 6775 50  0000 C CNN
 	1    825  6775
 	1    0    0    -1  
 $EndComp
-Text Notes 1000 2700 0    60   ~ 0
+Text Notes 2150 5875 0    60   ~ 0
 Auto Programming
-Text GLabel 700  3075 0    28   Input ~ 0
+Text GLabel 2025 6250 0    28   Input ~ 0
 DTR
 $Comp
 L R R2
 U 1 1 589A1209
-P 1050 3075
-F 0 "R2" V 1130 3075 50  0000 C CNN
-F 1 "12K" V 1050 3075 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 980 3075 50  0001 C CNN
-F 3 "" H 1050 3075 50  0000 C CNN
-	1    1050 3075
+P 2375 6250
+F 0 "R2" V 2455 6250 50  0000 C CNN
+F 1 "12K" V 2375 6250 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2305 6250 50  0001 C CNN
+F 3 "" H 2375 6250 50  0000 C CNN
+	1    2375 6250
 	0    1    1    0   
 $EndComp
 $Comp
 L Q_NPN_EBC Q2
 U 1 1 589A127B
-P 1525 3075
-F 0 "Q2" H 1825 3125 50  0000 R CNN
-F 1 "Q_NPN_EBC" H 2125 3025 50  0000 R CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 1725 3175 50  0001 C CNN
-F 3 "" H 1525 3075 50  0000 C CNN
-	1    1525 3075
+P 2850 6250
+F 0 "Q2" H 3150 6300 50  0000 R CNN
+F 1 "2N3904-MMBT" H 3600 6200 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 3050 6350 50  0001 C CNN
+F 3 "" H 2850 6250 50  0000 C CNN
+	1    2850 6250
 	1    0    0    -1  
 $EndComp
 $Comp
 L R R1
 U 1 1 589A13C9
-P 1025 3675
-F 0 "R1" V 1105 3675 50  0000 C CNN
-F 1 "12K" V 1025 3675 50  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 955 3675 50  0001 C CNN
-F 3 "" H 1025 3675 50  0000 C CNN
-	1    1025 3675
+P 2350 6850
+F 0 "R1" V 2430 6850 50  0000 C CNN
+F 1 "12K" V 2350 6850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 2280 6850 50  0001 C CNN
+F 3 "" H 2350 6850 50  0000 C CNN
+	1    2350 6850
 	0    1    1    0   
 $EndComp
 $Comp
 L Q_NPN_EBC Q1
 U 1 1 589A13CF
-P 1500 3675
-F 0 "Q1" H 1800 3725 50  0000 R CNN
-F 1 "Q_NPN_EBC" H 2100 3625 50  0000 R CNN
-F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 1700 3775 50  0001 C CNN
-F 3 "" H 1500 3675 50  0000 C CNN
-	1    1500 3675
+P 2825 6850
+F 0 "Q1" H 3125 6900 50  0000 R CNN
+F 1 "2N3904-MMBT" H 3550 6750 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23_Handsoldering" H 3025 6950 50  0001 C CNN
+F 3 "" H 2825 6850 50  0000 C CNN
+	1    2825 6850
 	1    0    0    1   
 $EndComp
-Text GLabel 700  3675 0    28   Input ~ 0
+Text GLabel 2025 6850 0    28   Input ~ 0
 RTS
-Text GLabel 1850 4000 2    60   Input ~ 0
+Text GLabel 3175 7175 2    60   Input ~ 0
 IO0
-Text GLabel 1900 2825 2    60   Input ~ 0
+Text GLabel 3225 6000 2    60   Input ~ 0
 EN
-Text Notes 2350 3250 0    60   ~ 0
+Text Notes 3625 6425 0    60   ~ 0
 Auto program
-Text Notes 2225 3625 0    39   ~ 0
+Text Notes 3550 6800 0    39   ~ 0
 DTR  RTS  --> EN  IO0\n1      1         1    1\n0      0         1    1\n1      0         0    1\n0      1         1    0
 $Comp
 L C_Small C9
@@ -975,10 +1015,10 @@ F 6 "*********" H 1525 4750 61  0001 C CNN "MPN"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR027
+L GND #PWR025
 U 1 1 58978B34
 P 3025 1875
-F 0 "#PWR027" H 3025 1625 50  0001 C CNN
+F 0 "#PWR025" H 3025 1625 50  0001 C CNN
 F 1 "GND" H 3025 1725 50  0000 C CNN
 F 2 "" H 3025 1875 50  0000 C CNN
 F 3 "" H 3025 1875 50  0000 C CNN
@@ -1026,10 +1066,10 @@ F 3 "" H 5675 1300 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +3V3 #PWR028
+L +3V3 #PWR026
 U 1 1 589E8561
 P 7325 1175
-F 0 "#PWR028" H 7325 1025 50  0001 C CNN
+F 0 "#PWR026" H 7325 1025 50  0001 C CNN
 F 1 "+3V3" H 7325 1325 50  0001 C CNN
 F 2 "" H 7325 1175 50  0000 C CNN
 F 3 "" H 7325 1175 50  0000 C CNN
@@ -1370,31 +1410,31 @@ Wire Wire Line
 Wire Wire Line
 	825  6250 825  6375
 Wire Wire Line
-	700  3075 900  3075
+	2025 6250 2225 6250
 Wire Wire Line
-	1200 3075 1325 3075
+	2525 6250 2650 6250
 Wire Wire Line
-	700  3675 875  3675
+	2025 6850 2200 6850
 Wire Wire Line
-	1175 3675 1300 3675
+	2500 6850 2625 6850
 Wire Wire Line
-	1600 3475 725  3475
+	2925 6650 2050 6650
 Wire Wire Line
-	725  3475 725  3075
-Connection ~ 725  3075
+	2050 6650 2050 6250
+Connection ~ 2050 6250
 Wire Wire Line
-	1625 3275 775  3275
+	2950 6450 2100 6450
 Wire Wire Line
-	775  3275 775  3675
-Connection ~ 775  3675
+	2100 6450 2100 6850
+Connection ~ 2100 6850
 Wire Wire Line
-	1600 3875 1600 4000
+	2925 7050 2925 7175
 Wire Wire Line
-	1600 4000 1850 4000
+	2925 7175 3175 7175
 Wire Wire Line
-	1900 2825 1625 2825
+	3225 6000 2950 6000
 Wire Wire Line
-	1625 2825 1625 2875
+	2950 6000 2950 6050
 Wire Wire Line
 	7200 3475 7200 3575
 Wire Wire Line
