@@ -31,7 +31,7 @@ The WiTooth is based on Espressif ESP32 WiFi-BT-BLE SoC (System on Chip), ESP32 
 The WiTooth is maintained by thingTronics Innovations.
 
 Main contributor:
- * Manohar Bompella @<manohar.bompella@thingtronics.com>
+ * Manohar Bompella@<manohar.bompella@thingtronics.com>
  * Poornima Nagesh @<poornima.nagesh@thingtronics.com>
  * Lovelesh Patel @<lovelesh.patel@thingtronics.com>
  
